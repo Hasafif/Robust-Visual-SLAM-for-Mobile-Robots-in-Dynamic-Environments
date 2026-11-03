@@ -1,0 +1,29 @@
+# Dataset downloads and extracted data
+/datasets/
+
+# Build artifacts and binaries
+build/
+cmake-build-*/
+*.o
+*.so
+*.a
+core
+core.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+evo-env/
+
+# ORB-SLAM3 vocabulary
+ORBvoc.txt
+
+# Logs
+*.log
+
+# Local IDE and OS files
+.DS_Store
+.idea/
+.vscode/
